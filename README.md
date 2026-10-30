@@ -60,6 +60,37 @@ game system required).
 
 Four whole-∞ concept renders also ship under `art/maps/lemnisciator/concepts/` (as art, not scenes).
 
+## The Lemnisciator loop (silent teleport)
+
+A compendium **macro** wires the infinity-loop for you using **Monk's Active Tile Triggers (MATT)**.
+
+**Requires:** the `monks-active-tiles` module, enabled. A **GM must stay connected** during play —
+MATT relays player-walked cross-scene teleports through the GM client.
+
+**Setup:** open **Compendium Packs → L'Arsène's Larceny — Macros**, and run **"Build the
+Lemnisciator Loop"** (as GM). It imports the 11 loop scenes into a **Lemnisciator** folder and wires
+a hidden "on-enter" teleport across the top edge of each ring scene. Safe to re-run — it rebuilds the
+teleports each time.
+
+**How the loop runs:** drop the party on **Lemnisciator — Entrance** and have them walk toward the
+top of the map. Each time they reach the top edge they're silently dropped at the bottom of the next
+scene, so "forward" never ends:
+
+```
+Entrance → Entrance (Sealed) → Straight 1 → Bend Right → Straight 2 → Crossroads (∞)
+         → Straight 3 → Bend Left → Straight 4 → Exit (Sealed) → back to Entrance (Sealed) …
+```
+
+The biology escalates bare→fleshy across a lap then resets — the tell that they're looping.
+
+**Releasing them:** the **Exit** scene (the open door) is deliberately left **unwired**. To let the
+party out, send them to **Lemnisciator — Exit** and point its door wherever your adventure continues
+(add your own MATT teleport, or just move them).
+
+**Tuning:** landings are bottom-centre and the trigger band is the top ~2 rows of each 768×768 tile.
+Adjust the hidden tiles per scene if you want, and add **walls** so players are funnelled along a
+corridor and can't see the seams (recommended but optional).
+
 ## Map credits & licensing
 
 This repository is **multi-licensed**:
@@ -80,9 +111,8 @@ This repository is **multi-licensed**:
 
 - **Grid:** each scene carries a best-guess grid — use Foundry's **Grid Configuration** to align it
   to the map before play.
-- **Walls, lighting, and the silent cross-scene teleport loop** (via Monk's Active Tile Triggers)
-  are not wired yet; they're planned for a later version. For now these are backgrounds you wall and
-  light to taste.
+- **The silent teleport loop is now included** as a one-click setup macro — see below. (Per-scene
+  **walls & lighting** are still up to you; the maps ship as backgrounds.)
 - The water-temple map is an original rendering derived from the layout of the adventure's Map F; the
   Lemnisciator tiles are wholly original.
 
