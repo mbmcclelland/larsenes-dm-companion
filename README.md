@@ -43,6 +43,19 @@ https://github.com/mbmcclelland/larsenes-dm-companion/releases/latest/download/m
 Enable it in your world, then open the compendium below. The maps are system-agnostic (no particular
 game system required).
 
+## Requirements & add-ons
+
+| Add-on | Needed for | Link |
+|---|---|---|
+| **Foundry VTT** v12+ (verified v13) | everything | https://foundryvtt.com |
+| **Monk's Active Tile Triggers** (`monks-active-tiles`) | **required** for the Lemnisciator teleport-loop macro | https://foundryvtt.com/packages/monks-active-tiles · https://github.com/ironmonk88/monks-active-tiles |
+| **libWrapper** (`lib-wrapper`) | recommended — MATT uses it | https://foundryvtt.com/packages/lib-wrapper · https://github.com/ruipin/fvtt-lib-wrapper |
+| The original **L'Arsène's Ludicrous Larceny** Foundry module | the actual adventure (actors, items, journals, maps, music) | https://github.com/Jonwh25/larsenes |
+| **dnd5e** system | only if you run the 5e adventure (the maps themselves are system-agnostic) | https://foundryvtt.com/packages/dnd5e |
+
+The maps and scenes work with just Foundry. Only the **loop macro** needs Monk's Active Tile Triggers
+(and a GM connected during play, since MATT relays player-walked teleports through the GM client).
+
 ## Contents — where to find things
 
 **Compendium Packs** tab → **L'Arsène's Ludicrous Larceny** folder → **L'Arsène's Larceny — Maps**
