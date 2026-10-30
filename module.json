@@ -2,7 +2,7 @@
   "id": "larsenes-dm-companion",
   "title": "L'Arsène's Ludicrous Larceny — DM Companion (Maps)",
   "description": "Unofficial supplemental battlemaps for the free adventure L'Arsène's Ludicrous Larceny by Humperdink's Wares & Loot Tavern: a realistic water-temple map and the modular Lemnisciator infinity-loop tileset, delivered as a Foundry Scenes compendium. Contains original AI-generated map art only; the original adventure and its Foundry module are linked in the README.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": { "minimum": "12", "verified": "13" },
   "authors": [ { "name": "Mac McClelland" } ],
   "packs": [

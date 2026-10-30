@@ -8,9 +8,12 @@ packaged as a Foundry VTT (v12 / v13) **Scenes compendium**. Two sets:
 - **The Lemnisciator** — a modular ∞-loop tileset (entrance, sealed entrance, four escalating
   straights, two bends, a plain crossroads, two infinity-mosaic crossroads, exit, sealed exit) for
   building the infinity-symbol trap dungeon that silently loops a party forever.
+- **Aramachi Manor** — the mayor's manor (ground + upper floors) that the heist breaks into, as two
+  scenes. See *Map credits* below for this map's provenance.
 
-This module contains **only original AI-generated map art**. It does not include the adventure's
-text, stat blocks, journals, or other content — get those from the creators below.
+This module contains original AI-generated map art plus one openly-licensed estate map (the manor).
+It does not include the adventure's text, stat blocks, journals, or other content — get those from
+the creators below.
 
 ## The original adventure — credit & where to get it
 
@@ -52,8 +55,16 @@ game system required).
 | Lemnisciator — Bend Left / Bend Right | |
 | Lemnisciator — Crossroads (plain X) / (∞ knot) / (∞ organic) | the ∞-knot is the recommended loop centerpiece |
 | Lemnisciator — Exit / Exit (Sealed) | swap sealed → open to release the party |
+| Aramachi Manor — Ground Floor / Upper Floor | the manor the heist breaks into (openly-licensed map) |
 
 Four whole-∞ concept renders also ship under `art/maps/lemnisciator/concepts/` (as art, not scenes).
+
+## Map credits
+
+- **Water Temple** and **Lemnisciator** maps — original AI-generated art by the repo owner.
+- **Aramachi Manor** (ground + upper) — an openly-licensed community battlemap, included with the
+  repo owner's confirmation that its license permits redistribution. _Creator / license: to be
+  credited — see repo owner._
 
 ## Notes & roadmap
 
