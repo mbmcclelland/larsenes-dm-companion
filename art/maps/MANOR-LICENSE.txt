@@ -1,0 +1,17 @@
+Aramachi Manor maps — attribution & license
+===========================================
+
+Files:  art/maps/manor-ground.webp , art/maps/manor-upper.webp
+
+Title:   "Noble Estate" (two-floor noble estate / mansion battlemap)
+Author:  Morvold Press  —  https://www.patreon.com/morvoldpress
+Source:  https://www.patreon.com/morvoldpress/posts/noble-estate-of-39392892  (Jul 16, 2020)
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+         https://creativecommons.org/licenses/by-nc/4.0/
+
+These two files are re-encoded (WebP) versions of the above map, used here as the
+"Aramachi Manor" scenes. They remain (c) Morvold Press and are provided under CC BY-NC 4.0:
+share/adapt for NON-COMMERCIAL purposes, with attribution.
+
+The rest of this module (code, scene definitions, and the Water Temple and Lemnisciator
+map art) is original work by the repo owner under the MIT License (see ../../LICENSE).

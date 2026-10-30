@@ -11,9 +11,10 @@ packaged as a Foundry VTT (v12 / v13) **Scenes compendium**. Two sets:
 - **Aramachi Manor** — the mayor's manor (ground + upper floors) that the heist breaks into, as two
   scenes. See *Map credits* below for this map's provenance.
 
-This module contains original AI-generated map art plus one openly-licensed estate map (the manor).
-It does not include the adventure's text, stat blocks, journals, or other content — get those from
-the creators below.
+This module contains original AI-generated map art plus one CC BY-NC estate map (the manor, by
+Morvold Press — see *Map credits*). Because that map is **NonCommercial**, treat the whole
+compendium as non-commercial. It does not include the adventure's text, stat blocks, journals, or
+other content — get those from the creators below.
 
 ## The original adventure — credit & where to get it
 
@@ -55,16 +56,25 @@ game system required).
 | Lemnisciator — Bend Left / Bend Right | |
 | Lemnisciator — Crossroads (plain X) / (∞ knot) / (∞ organic) | the ∞-knot is the recommended loop centerpiece |
 | Lemnisciator — Exit / Exit (Sealed) | swap sealed → open to release the party |
-| Aramachi Manor — Ground Floor / Upper Floor | the manor the heist breaks into (openly-licensed map) |
+| Aramachi Manor — Ground Floor / Upper Floor | the manor the heist breaks into — "Noble Estate" by Morvold Press, CC BY-NC 4.0 |
 
 Four whole-∞ concept renders also ship under `art/maps/lemnisciator/concepts/` (as art, not scenes).
 
-## Map credits
+## Map credits & licensing
 
-- **Water Temple** and **Lemnisciator** maps — original AI-generated art by the repo owner.
-- **Aramachi Manor** (ground + upper) — an openly-licensed community battlemap, included with the
-  repo owner's confirmation that its license permits redistribution. _Creator / license: to be
-  credited — see repo owner._
+This repository is **multi-licensed**:
+
+- **Water Temple** and **Lemnisciator** maps + all module code/scene definitions — original work by
+  the repo owner, **MIT** (see `LICENSE`).
+- **Aramachi Manor** (`art/maps/manor-ground.webp`, `art/maps/manor-upper.webp`) — the **"Noble
+  Estate"** battlemap by **Morvold Press**, licensed **Creative Commons Attribution–NonCommercial
+  4.0 International (CC BY-NC 4.0)**: https://creativecommons.org/licenses/by-nc/4.0/ . See
+  `art/maps/MANOR-LICENSE.txt`.
+  - **Creator:** Morvold Press — https://www.patreon.com/morvoldpress
+  - Source: "Noble Estate" (Jul 16, 2020) —
+    https://www.patreon.com/morvoldpress/posts/noble-estate-of-39392892
+  - **NonCommercial:** because this map is CC BY-NC, the compendium as a whole may be used and shared
+    for **non-commercial** purposes only; do not use it commercially while the manor map is bundled.
 
 ## Notes & roadmap
 
